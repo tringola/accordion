@@ -1,3 +1,12 @@
+# v2.1.1
+### 08 May, 2018
+
+ - Added !important to CSS
+ - Added Changelog, License and Contributing guidelines
+ - Updated description on JS
+ - Reorganised folders in Project
+ - Updated ReadMe to include CSS
+
 # v2.1.0
 ### 01 May, 2018
 

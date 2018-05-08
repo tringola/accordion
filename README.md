@@ -9,7 +9,7 @@ Simple Accordion done in Vanilla JS.
 <script type="text/javascript" src="accordion.js"></script>
 ```
 
-2. Minimum CSS required
+2. Add this to your CSS
 
 ```CSS
 .closed{
