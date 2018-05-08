@@ -1,11 +1,14 @@
-/*---------------
+/*------------------------------------------------------------------------------
+
 * Accordion
 * Simple Accordion done in Vanilla JS
-* Example and documentation at: https://github.com/pinceladasdaweb/accordion
-* Copyright (c) 2013
-* Version: 1.0.0 (27-JUN-2013)
-* Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
----------------*/
+* GitHub    : https://github.com/kolappannathan/accordion
+* Based on  : https://github.com/pinceladasdaweb/accordion
+* Version   : v2.1.1 (5 May, 2018)
+* License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
+
+------------------------------------------------------------------------------*/
+
 window.onload = function () {
     let acc = document.getElementsByClassName("js-accordion");
 
