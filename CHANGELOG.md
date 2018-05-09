@@ -1,3 +1,10 @@
+# v3.0.0
+### 09 May, 2018
+
+ - Replaced tag based heading section with class based one
+ - Created separated CSS file for css used in accordion
+ - Renamed classes
+
 # v2.1.1
 ### 08 May, 2018
 

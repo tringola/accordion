@@ -10,30 +10,30 @@
 ------------------------------------------------------------------------------*/
 
 window.onload = function () {
-    let acc = document.getElementsByClassName("js-accordion");
+  let acc = document.getElementsByClassName("acc-section");
 
-    for(let i = 0; i < acc.length; i++) {
-      let titles = acc[i].getElementsByTagName("h2");
+  for(let i = 0; i < acc.length; i++) {
+    let titles = acc[i].getElementsByClassName("acc-title");
 
-      for (let j = 0; j < titles.length; j++) {
-          let title = titles[j];
+    for (let j = 0; j < titles.length; j++) {
 
-          title.setAttribute("class", "toggle");
-          title.nextElementSibling.setAttribute("class", "closed");
+      let title = titles[j];
+      title.classList.add("toggle");
+      title.nextElementSibling.classList.add("acc-closed");
 
-          title.onclick = function () {
-              let cur = this;
-
-              if (cur.getAttribute("class") == "toggle") {
-                cur.setAttribute("class", "toggle-active");
-                cur.nextElementSibling.setAttribute("class", "");
-              }
-              else {
-                cur.setAttribute("class", "toggle");
-                cur.nextElementSibling.setAttribute("class", "closed");
-              }
-          }
+      title.onclick = function () {
+        let cur = this;
+        if (cur.classList.contains("toggle")) {
+          cur.classList.remove("toggle");
+          cur.classList.add("toggle-active");
+          cur.nextElementSibling.classList.remove("acc-closed");
+        }
+        else {
+          cur.classList.add("toggle");
+          cur.classList.remove("toggle-active");
+          cur.nextElementSibling.classList.add("acc-closed");
+        }
       }
-
     }
+  }
 }

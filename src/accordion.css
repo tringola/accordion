@@ -1,0 +1,7 @@
+/*
+* CSS required for Accordion.js
+*/
+
+.acc-closed {
+    display: none !important;
+}
