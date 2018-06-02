@@ -1,7 +1,11 @@
 /*
-* CSS required for Accordion.js
+* CSS for Accordion.js
 */
 
 .acc-closed {
     display: none !important;
+}
+
+.acc-title{
+    cursor: pointer;
 }
