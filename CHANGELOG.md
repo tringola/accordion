@@ -1,3 +1,9 @@
+# v3.0.1
+### 02 July, 2018
+ - Added CSS for mouse pointers in Accordion title
+ - Replaced old demo with a simpler one
+ - Added Demo website URL and website URL
+
 # v3.0.0
 ### 09 May, 2018
 

@@ -1,8 +1,9 @@
 .nk-card {
     border: 0.1px grey solid;
-    max-width: 200px !important; /*!important used to override bootstrap*/
+    max-width: 250px !important; /*!important used to override bootstrap*/
     margin-top: 25px;
     background-color: white;
+    color: black;
 }
 
 .acc-title{
@@ -14,4 +15,5 @@
 
 body{
     background-color: blueviolet;
+    color: white;
 }

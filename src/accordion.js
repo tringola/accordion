@@ -4,7 +4,9 @@
 * Simple Accordion done in Vanilla JS
 * GitHub    : https://github.com/kolappannathan/accordion
 * Based on  : https://github.com/pinceladasdaweb/accordion
-* Version   : v2.1.1 (5 May, 2018)
+* Website   : https://kolappannathan.github.io/projects/accordion/
+* Demo      : https://kolappannathan.github.io/projects/accordion/demo.html
+* Version   : v3.0.1 (2 Jul, 2018)
 * License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
 
 ------------------------------------------------------------------------------*/
