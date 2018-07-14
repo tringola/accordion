@@ -19,11 +19,11 @@ Simple Accordion done in Vanilla JS.
 
 ```html
 <div class="acc-section">
-    <h2 class="acc-title">Title here</h2>
+    <h2 class="acc-item">Title here</h2>
     <div><!-- HTML here --></div>
-    <h5 class="acc-title">Title here</h5>
+    <h5 class="acc-item">Title here</h5>
     <div><!-- HTML here --></div>
-    <div class="acc-title">Title here</div>
+    <div class="acc-item">Title here</div>
     <div><!-- HTML here --></div>
 </div>
 ```
