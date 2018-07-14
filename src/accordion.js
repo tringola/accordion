@@ -11,31 +11,27 @@
 
 ------------------------------------------------------------------------------*/
 
-window.onload = function () {
+(function () {
   let acc = document.getElementsByClassName("acc-section");
+  var items = document.getElementsByClassName("acc-item");     
 
-  for(let i = 0; i < acc.length; i++) {
-    let titles = acc[i].getElementsByClassName("acc-title");
+    for (var i = 0; i < items.length; i++) {
 
-    for (let j = 0; j < titles.length; j++) {
+      var item = items[i];
+      item.classList.add("toggle");
+      item.nextElementSibling.classList.add("acc-content");
 
-      let title = titles[j];
-      title.classList.add("toggle");
-      title.nextElementSibling.classList.add("acc-closed");
-
-      title.onclick = function () {
-        let cur = this;
+       item.onclick = function () {
+        var cur = this;
         if (cur.classList.contains("toggle")) {
-          cur.classList.remove("toggle");
-          cur.classList.add("toggle-active");
-          cur.nextElementSibling.classList.remove("acc-closed");
+          cur.classList.remove("toggle");          
+          cur.nextElementSibling.style.display = "block";
         }
         else {
-          cur.classList.add("toggle");
-          cur.classList.remove("toggle-active");
-          cur.nextElementSibling.classList.add("acc-closed");
+          cur.classList.add("toggle");          
+          cur.nextElementSibling.style.display = "none";
         }
       }
     }
-  }
-}
+  
+}());
